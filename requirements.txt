@@ -1,0 +1,11 @@
+numpy==1.26.4
+pandas==2.2.2
+xarray==2024.4.0
+matplotlib==3.9.0
+cartopy==0.23.0
+metpy==1.7.0
+cfgrib==0.9.10.4
+requests==2.32.3
+cmaps==1.0.5
+shapely==2.0.4
+pyproj==3.6.1
