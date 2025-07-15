@@ -23,10 +23,10 @@ The default domain covers South America ( 80°S–18°N, 93°W–25°W ), 
 
 ```bash
 # 1. Clone
-git clone https://github.com/<user>/gfs-forecast-pipeline.git
+git clone https://github.com/<user>/Pipeline-GFS.git
 cd gfs-forecast-pipeline
 
-# 2. Create environment (Python ≥ 3.9)
+# 2. Create environment (Python ≥ 3.10)
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt   # see list below
