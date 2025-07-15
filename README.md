@@ -12,7 +12,8 @@ The default domain covers South America ( 80°S–18°N, 93°W–25°W ), 
 ## Features
 - 🔁 **Idempotent** — skips the download step when fresh data (≤ 6 h) already exist. :contentReference[oaicite:1]{index=1}  
 - 🗺️ **High‑quality cartography** with Cartopy and custom color maps (temperature, precip, thickness). :contentReference[oaicite:2]{index=2}  
-- ✉️ **Secure mail delivery** (SSL) with configurable sender/recipients and `EMAIL_PASSWORD` env‑var fallback. :contentReference[oaicite:3]{index=3}  
+- ✉️ **Secure mail delivery** (SSL) with configurable sender/recipients and `EMAIL_PASSWORD` env‑var fallback. :contentReference[oaicite:3]{index=3}
+  - **Using Gmail with 2FA?** Create a Google *App Password* at <https://myaccount.google.com/apppasswords> and supply **that** 16‑character key (not your normal password) via the `--password` flag or the `EMAIL_PASSWORD` environment variable.  
 - 🐚 **CLI‑first**: every option—resolution, run cycle, max‑age, SMTP server—available as flags.  
 - 🛠️ **Composable**: each stage can be run stand‑alone or orchestrated end‑to‑end.
 
